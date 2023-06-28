@@ -34,8 +34,10 @@ Makefile build:
 ```
 $ cd netatop-bpf
 $ git submodule update --init --recursive       # check out libbpf
-$ make & make install
+$ make
+$ make install
 $ cd atop
-$ make & make install
+$ make
+$ make install
 $ atop -n
 ```
